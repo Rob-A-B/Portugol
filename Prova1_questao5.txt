@@ -1,0 +1,19 @@
+Na linha 17, para se realizar a soma anual, deveria ser 
+soma anual= soma_anual + ano
+
+A variavel "cont" não é inicializada, nem incrementada
+logo o laço não ira rodar, nem a media sera calculada, que esta em
+função de "cont"
+
+Na linha 10, a variavel "soma_anual" não foi declarada
+
+Cont é melhor ser declarada como uma variavel do tipo real,
+tendo em vista que é utilizada no calculo da "media", na linha 31
+que acarretara em um numero com casas decimais provavelmente
+e em portugol, por ser uma linguagem tipada, acarretara em erro
+de calculo
+
+Na linha 22, "ano_atual" não é atribuido a nenhum valor, nem declarado
+
+Nos escrevas das linhas 33 a 35, as palavras "quantidade" e "média" 
+estão escritas de forma errada ortograficamente
